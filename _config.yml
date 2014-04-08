@@ -1,0 +1,7 @@
+name: "The Knoblog"
+description: "Genetics, Genomics, Grad School"
+url: "http://knobla.com"
+
+paginate: 10
+markdown: redcarpet
+pygments: true
