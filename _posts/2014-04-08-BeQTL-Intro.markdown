@@ -13,6 +13,7 @@ Introduction
 ------------------
 
 Expression quantitative trait loci (eQTL) mapping is widely performed to study the genetics of gene regulation.  While the genome wide association study (GWAS) can yield the alleles correlated with a disease or phenotype of interest, on it’s own it rarely gives insight as to the functional significance of these alleles. Finding the transcripts whose expression levels correlate with an allele known to predict disease risk can be an important step in elucidating the functional consequences of the variant.  Reciprocally, countless molecular experiments have been undertaken to understand the molecular mechanisms of disease, and have described genes and gene networks known to influence disease phenotype.  Finding genetic variants that correlate with the expression levels of these genes can bridge the divide between genotype and phenotype.
+
  
 	The development of massively parallel methods for DNA and RNA sequencing have enabled the generation of extremely large data-sets containing samples that have undergone both genotyping and expression profiling genomewide. 
 As the cost of both genotyping and gene expression profiling continue to decline, the size and number of these datasets is likely to increase in the coming years. A major bottleneck to performing large-scale integrative analyses on these is the computational resources necessary to comprehensively analyze all potential interactions in a data-set. 
