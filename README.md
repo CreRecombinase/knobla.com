@@ -1,1 +1,0 @@
-This is going to be my jekyll blog on knobla.com (aka the Knoblog)

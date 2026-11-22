@@ -1,14 +1,19 @@
----
-layout: default
-title: The Knoblog
----
-
-<div id="home">
-  
-  <h1>Blog Posts</h1>
-  <ul class="posts">
-    {% for post in site.posts %}
-      <li><span>{{ post.date | date_to_string }}</span> &raquo; <a href="{{ post.url }}">{{ post.title }}</a></li>
-    {% endfor %}
-  </ul>
-</div>
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>knobla.com</title>
+<style>
+  body { font: 16px/1.5 system-ui, sans-serif; max-width: 40rem; margin: 4rem auto; padding: 0 1rem; color: #222; background: #fff; }
+  @media (prefers-color-scheme: dark) { body { color: #ddd; background: #111; } a { color: #8ab4f8; } }
+</style>
+</head>
+<body>
+<h1>knobla.com</h1>
+<p>A personal domain. It hosts small tools I run for my own use, such as
+uploading my own photos to my own Google Photos library.</p>
+<p><a href="privacy.html">Privacy policy</a> ·
+<a href="https://github.com/CreRecombinase">GitHub</a></p>
+</body>
+</html>
